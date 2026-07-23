@@ -136,6 +136,11 @@
     grid-template-columns:1fr 1fr;
     gap:1.1rem;
   }
+  .three-col{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    gap:1.1rem;
+  }
   .card{
     background:var(--paper-2);
     border:1px solid var(--rule);
@@ -356,13 +361,13 @@
           <ul><li>Known from the Aerodrome</li><li>Bookish, minor interest in the occult</li><li>Works for Aeroposta Argentina, S.A.</li></ul>
         </div>
         <div class="card">
-          <img src="roy_bolton.png" alt="" style="width:100%; border:1px solid var(--rule); margin-bottom:0.6rem; display:block;">
+          <img src="roy_bolton.png" alt="" style="width:75%; margin-left:auto; margin-right:auto; border:1px solid var(--rule); margin-bottom:0.6rem; display:block;">
           <p class="name"><a class="name-link" href="roy_bolton.png" target="_blank">Roy Bolton</a></p>
           <p class="role">Alex</p>
           <ul><li>A gaucho, skilled horseman and rugged outdoorsman of the Argentine plains</li><li>Minor interest in the occult</li><li>Ambulance driver by trade</li></ul>
         </div>
         <div class="card">
-          <img src="frank_donovan.png" alt="" style="width:100%; border:1px solid var(--rule); margin-bottom:0.6rem; display:block;">
+          <img src="frank_donovan.png" alt="" style="width:75%; margin-left:auto; margin-right:auto; border:1px solid var(--rule); margin-bottom:0.6rem; display:block;">
           <p class="name"><a class="name-link" href="frank_donovan.png" target="_blank">Frank Donovan</a></p>
           <p class="role">Dwayne</p>
           <ul><li>Known through mutual friendship with Martin Michael Cole-Houston</li><li>American cop, on vacation</li></ul>
@@ -375,14 +380,14 @@
     <section id="npcs">
       <details class="section-tab">
         <summary><h2>NPCs</h2></summary>
-        <div class="section-body">      <div class="two-col">
+        <div class="section-body">      <div class="three-col">
         <div class="card">
           <p class="name">Martin Michael Cole-Houston</p>
           <p class="role">Theatre impresario</p>
           <ul><li>Friend from the military</li></ul>
         </div>
         <div class="card">
-          <img src="nina_pachetti.png" alt="" style="width:100%; border:1px solid var(--rule); margin-bottom:0.6rem; display:block;">
+          <img src="nina_pachetti.png" alt="" style="width:75%; margin-left:auto; margin-right:auto; border:1px solid var(--rule); margin-bottom:0.6rem; display:block;">
           <p class="name"><a class="name-link" href="nina_pachetti.png" target="_blank">Nina Pachetti</a></p>
           <p class="role">Girlfriend · Age 27</p>
           <ul><li>Has the 11th off, expects to spend time together</li></ul>
@@ -403,19 +408,19 @@
           <ul><li>Young woman, blonde hair</li><li>Claims the body was mutilated</li></ul>
         </div>
         <div class="card">
-          <img src="dante_olmos_rossi.png" alt="" style="width:100%; border:1px solid var(--rule); margin-bottom:0.6rem; display:block;">
+          <img src="dante_olmos_rossi.png" alt="" style="width:75%; margin-left:auto; margin-right:auto; border:1px solid var(--rule); margin-bottom:0.6rem; display:block;">
           <p class="name"><a class="name-link" href="dante_olmos_rossi.png" target="_blank">Det. Supt. Dante Olmos-Rossi</a></p>
           <p class="role">Police contact</p>
           <ul><li>Frank's contact at the police station</li><li>Hangs out at a local bar in the evenings</li></ul>
         </div>
         <div class="card">
-          <img src="pedro_duerte.png" alt="" style="width:100%; border:1px solid var(--rule); margin-bottom:0.6rem; display:block;">
+          <img src="pedro_duerte.png" alt="" style="width:75%; margin-left:auto; margin-right:auto; border:1px solid var(--rule); margin-bottom:0.6rem; display:block;">
           <p class="name"><a class="name-link" href="pedro_duerte.png" target="_blank">Pedro Duerte</a></p>
           <p class="role">Victim — first body</p>
           <ul><li>Killed August 4 — body found August 7</li></ul>
         </div>
         <div class="card">
-          <img src="luis_gomez.png" alt="" style="width:100%; border:1px solid var(--rule); margin-bottom:0.6rem; display:block;">
+          <img src="luis_gomez.png" alt="" style="width:75%; margin-left:auto; margin-right:auto; border:1px solid var(--rule); margin-bottom:0.6rem; display:block;">
           <p class="name"><a class="name-link" href="luis_gomez.png" target="_blank">Luis Gomez</a></p>
           <p class="role">Victim — second body</p>
           <ul><li>Killed August 7</li></ul>
@@ -428,11 +433,13 @@
     <section id="city">
       <details class="section-tab">
         <summary><h2>City</h2></summary>
-        <div class="section-body">      <a href="ba_map_1933.png" target="_blank"><img src="ba_map_1933.png" alt="1933 map of central Buenos Aires" style="width:100%; max-width:700px; border:1px solid var(--rule); margin-bottom:1.4rem; display:block;"></a>
+        <div class="section-body">      <p class="title-sub" style="margin-top:0;">"The Paris of South America"</p>
+      <a href="ba_map_1933.png" target="_blank"><img src="ba_map_1933.png" alt="1933 map of central Buenos Aires" style="width:100%; max-width:700px; border:1px solid var(--rule); margin-bottom:1.4rem; display:block;"></a>
       <div class="card" style="max-width:700px;">
         <p class="role" style="margin-top:0;">Notes</p>
         <ul>
           <li>Buenos Aires, Argentina — 1933</li>
+          <li>1930 military coup overthrew President Hipólito Yrigoyen; political tension and unrest continue</li>
         </ul>
       </div>
         </div>
@@ -466,41 +473,45 @@
           <p class="name">Cafe El Farol Rojo</p>
           <p class="role">Tango, música, show</p>
 
-          <h3>Staff &amp; regulars</h3>
-          <div class="two-col">
-            <div class="card">
-              <p class="name" style="font-size:1rem;">Luica</p>
-              <p class="role">Tango dancer</p>
+          <details class="day-tab" style="margin-top:1rem;">
+            <summary>Staff &amp; regulars</summary>
+            <div class="day-body">
+              <div class="two-col">
+                <div class="card">
+                  <p class="name" style="font-size:1rem;">Luica</p>
+                  <p class="role">Tango dancer</p>
+                </div>
+                <div class="card">
+                  <p class="name" style="font-size:1rem;">Tomas</p>
+                  <p class="role">Tango dancer</p>
+                </div>
+                <div class="card">
+                  <p class="name" style="font-size:1rem;">Emilio</p>
+                  <p class="role">Pianist, band leader</p>
+                  <ul><li>Old man</li><li>Sees everything, picks up everything</li><li>Looks thirsty</li></ul>
+                </div>
+                <div class="card">
+                  <p class="name" style="font-size:1rem;">Ernesto</p>
+                  <p class="role">Head waiter</p>
+                  <ul><li>Extremely professional</li><li>Steward of the Waiters union</li><li>Always busy</li></ul>
+                </div>
+                <div class="card">
+                  <p class="name" style="font-size:1rem;">Ramon</p>
+                  <p class="role">Bartender</p>
+                  <ul><li>Listens to everything, pretends to hear nothing</li></ul>
+                </div>
+                <div class="card">
+                  <p class="name" style="font-size:1rem;">Alejandro</p>
+                  <p class="role">Cafe owner</p>
+                  <ul><li>Italian</li></ul>
+                </div>
+                <div class="card">
+                  <p class="name" style="font-size:1rem;">Marita</p>
+                  <p class="role">Cigarette girl</p>
+                </div>
+              </div>
             </div>
-            <div class="card">
-              <p class="name" style="font-size:1rem;">Tomas</p>
-              <p class="role">Tango dancer</p>
-            </div>
-            <div class="card">
-              <p class="name" style="font-size:1rem;">Emilio</p>
-              <p class="role">Pianist, band leader</p>
-              <ul><li>Old man</li><li>Sees everything, picks up everything</li><li>Looks thirsty</li></ul>
-            </div>
-            <div class="card">
-              <p class="name" style="font-size:1rem;">Ernesto</p>
-              <p class="role">Head waiter</p>
-              <ul><li>Extremely professional</li><li>Steward of the Waiters union</li><li>Always busy</li></ul>
-            </div>
-            <div class="card">
-              <p class="name" style="font-size:1rem;">Ramon</p>
-              <p class="role">Bartender</p>
-              <ul><li>Listens to everything, pretends to hear nothing</li></ul>
-            </div>
-            <div class="card">
-              <p class="name" style="font-size:1rem;">Alejandro</p>
-              <p class="role">Cafe owner</p>
-              <ul><li>Italian</li></ul>
-            </div>
-            <div class="card">
-              <p class="name" style="font-size:1rem;">Marita</p>
-              <p class="role">Cigarette girl</p>
-            </div>
-          </div>
+          </details>
         </div>
       </div>
         </div>
@@ -510,15 +521,20 @@
     <section id="newspapers">
       <details class="section-tab">
         <summary><h2>Newspapers</h2></summary>
-        <div class="section-body">      <div class="card" style="max-width:700px; margin-bottom:1.2rem;">
-        <p class="role" style="margin-top:0;">El Diario — Monday, August 7, 1933</p>
-      </div>
-      <a href="el_diario_aug7_1933.png" target="_blank"><img src="el_diario_aug7_1933.png" alt="El Diario, August 7, 1933" style="width:100%; max-width:700px; border:1px solid var(--rule); margin-bottom:1.4rem; display:block;"></a>
+        <div class="section-body">
+      <details class="day-tab">
+        <summary>El Diario — Monday, August 7, 1933</summary>
+        <div class="day-body">
+          <a href="el_diario_aug7_1933.png" target="_blank"><img src="el_diario_aug7_1933.png" alt="El Diario, August 7, 1933" style="width:100%; max-width:700px; border:1px solid var(--rule); margin-top:0.8rem; display:block;"></a>
+        </div>
+      </details>
 
-      <div class="card" style="max-width:700px; margin-bottom:1.2rem;">
-        <p class="role" style="margin-top:0;">El Diario — Tuesday, August 8, 1933</p>
-      </div>
-      <a href="el_diario_aug8_1933.png" target="_blank"><img src="el_diario_aug8_1933.png" alt="El Diario, August 8, 1933" style="width:100%; max-width:700px; border:1px solid var(--rule); margin-bottom:1.4rem; display:block;"></a>
+      <details class="day-tab">
+        <summary>El Diario — Tuesday, August 8, 1933</summary>
+        <div class="day-body">
+          <a href="el_diario_aug8_1933.png" target="_blank"><img src="el_diario_aug8_1933.png" alt="El Diario, August 8, 1933" style="width:100%; max-width:700px; border:1px solid var(--rule); margin-top:0.8rem; display:block;"></a>
+        </div>
+      </details>
         </div>
       </details>
     </section>
